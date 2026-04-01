@@ -50,10 +50,8 @@ Launch the ThymeWorld app. Configure generation settings (player count, nations,
 ## Supported
 
 - Balanced start placement (simulated annealing with pluggable scoring presets)
-- Border mountains, rivers, mountain passes, and bridges with mixed connection types per border
 - Nation-aware terrain assignment (138 nations with capital and ring biases)
 - Full aquatic nation support with geometric clustering and terrain-aware materialization
-- Automatic throne placement with fair 2-regular contestation
 - Toroidal (wrapping) maps
 - Cosmetic coastlines, islands, decorative lakes, and river channels
 - Web-based editor with province/connection editing, balance stats, and live preview
@@ -64,7 +62,6 @@ Launch the ThymeWorld app. Configure generation settings (player count, nations,
 
 - Multi-plane maps (no caves or underworld)
 - Underground/cave nations
-- TGA map format (D6M only)
 - Custom throne counts (always N thrones for N players)
 
 ## AI Disclosure
