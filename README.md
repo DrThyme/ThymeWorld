@@ -1,15 +1,37 @@
+![Territory view](images/logo.png)
 # ThymeWorld
 
 A random map generator for [Dominions 6](https://www.illwinter.com/dom6/index.html).
 
-Generates balanced, playable maps with:
-- Balanced player start placement via simulated annealing
-- Border mountains, rivers, mountain passes, and bridges
-- Terrain assignment with nation-aware biases
-- Aquatic nation support with symmetric water homelands
-- Throne placement with fair contestation
-- Toroidal (wrapping) maps
-- Desktop editor for viewing and editing generated maps
+## Screenshots
+
+<details>
+<summary>Territory lens</summary>
+
+![Territory view](images/thyme-world-territory.png)
+
+</details>
+
+<details>
+<summary>Terrain lens</summary>
+
+![Terrain view](images/thyme-world-terrain.png)
+
+</details>
+
+<details>
+<summary>Generation settings</summary>
+
+![Generate modal](images/thyme-world-generate-modal.png)
+
+</details>
+
+<details>
+<summary>Balance stats</summary>
+
+![Map statistics](images/thyme-world-stats.png)
+
+</details>
 
 ## Download
 
@@ -23,9 +45,31 @@ Go to [Releases](https://github.com/DrThyme/ThymeWorld/releases) and download th
 
 ## Usage
 
-Launch the ThymeWorld app. Use the editor to configure generation settings (player count, nations, terrain weights, etc.) and generate maps. Export maps to use them in Dominions 6.
+Launch the ThymeWorld app. Configure generation settings (player count, nations, terrain weights, etc.), generate a map, and export it. Copy the `.d6m` + `.map` files to your Dominions 6 maps folder.
 
-Generated maps are saved as `.d6m` + `.map` files. Copy them to your Dominions 6 maps folder to use them in-game.
+## Supported
+
+- Balanced start placement (simulated annealing with pluggable scoring presets)
+- Border mountains, rivers, mountain passes, and bridges with mixed connection types per border
+- Nation-aware terrain assignment (138 nations with capital and ring biases)
+- Full aquatic nation support with geometric clustering and terrain-aware materialization
+- Automatic throne placement with fair 2-regular contestation
+- Toroidal (wrapping) maps
+- Cosmetic coastlines, islands, decorative lakes, and river channels
+- Web-based editor with province/connection editing, balance stats, and live preview
+- Standalone desktop app (Windows, macOS, Linux) via Tauri
+- Reproducible generation via seed
+
+## Not Supported
+
+- Multi-plane maps (no caves or underworld)
+- Underground/cave nations
+- TGA map format (D6M only)
+- Custom throne counts (always N thrones for N players)
+
+## AI Disclosure
+
+This application was developed with the assistance of AI (Claude). The logo was also AI-generated.
 
 ## Bug Reports
 
