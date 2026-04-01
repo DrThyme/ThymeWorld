@@ -64,6 +64,10 @@ Launch the ThymeWorld app. Configure generation settings (player count, nations,
 - Underground/cave nations
 - Custom throne counts (always N thrones for N players)
 
+## Contributors
+
+- **Teju Jagua** -- Balance discussions, testing, and general sounding board
+
 ## AI Disclosure
 
 This application was developed with the assistance of AI (Claude). The logo was also AI-generated.
