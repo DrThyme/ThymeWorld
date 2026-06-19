@@ -66,7 +66,9 @@ Launch the ThymeWorld app. Configure generation settings (player count, nations,
 
 ## Contributors
 
-- **Teju Jagua** -- Balance discussions, testing, and general sounding board
+- **Teju Jagua**
+- **Selgeron**
+- **Mechrite**
 
 ## AI Disclosure
 
