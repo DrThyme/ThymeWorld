@@ -8,17 +8,31 @@ result in a built-in editor before exporting it to the game.
 
 ## Screenshots
 
-<details>
-<summary>Territory lens</summary>
+<details open>
+<summary>Terrain + Territory lenses</summary>
 
-![Territory view](images/thyme-world-territory.png)
+![Terrain lens with territory tint](images/thyme-world-territory.png)
 
 </details>
 
 <details>
-<summary>Simple terrain lens</summary>
+<summary>Terrain lens (the map as Dominions draws it)</summary>
 
-![Terrain view](images/thyme-world-terrain.png)
+![Terrain lens](images/thyme-world-terrain.png)
+
+</details>
+
+<details>
+<summary>Teams lens (disciples game)</summary>
+
+![Teams lens](images/thyme-world-teams.png)
+
+</details>
+
+<details>
+<summary>Underground plane</summary>
+
+![Underground plane](images/thyme-world-underground.png)
 
 </details>
 
