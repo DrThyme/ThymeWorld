@@ -123,7 +123,9 @@ Go to [Releases](https://github.com/DrThyme/ThymeWorld/releases) and download th
   bundled only so the editor can preview a map the way the game draws it.
 - The game-art renderer is a port of
   [dom6-simple-map-editor](https://github.com/PKozdra/dom6-simple-map-editor)
-  by PKozdra (MIT).
+  by PKozdra, used under the MIT licence
+  ([full text](LICENSES/dom6-simple-map-editor-MIT.txt)). The desktop app
+  ships the same file in its resources folder.
 
 ## AI Disclosure
 
